@@ -1,7 +1,11 @@
 # Common build directories
-build
+build*
 .build
 _build
+
+# Meson subproject cache and build dirs
+subprojects/*
+!subprojects/*.wrap
 
 # Prerequisites
 *.d

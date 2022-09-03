@@ -4,5 +4,5 @@ At a bare minimum, you should change or fill in:
 * The project name (the empty string at the top of the main meson.build).
 * The list of additional source code files (lib_srcs in src/meson.build).
 * Any library dependencies (lib_deps in src/meson.build).
-  * A fake "libfoo" dependency is configured there and in subprojects/foo.wrap as an example.
+  * SDL2 is configured as a dependency there and in subprojects/sdl2.wrap (currently set to 2.24.0) as an example.
 * This ReadMe file (README.md).
